@@ -1,0 +1,142 @@
+body{
+    background-color:  #fff ;
+    color: #333333;
+}
+.primary{
+    background-color:#0D3B66 !important;
+    color: #F5F5F5 !important;
+    border-radius: 10px;
+}
+.accent{
+    background-color: #F4D35E !important;
+    color: #0D3B66 !important;
+}
+.highlight{
+    background-color: #EE964B !important;
+    color: #fff !important; 
+}
+.text-dark{
+    color: #333333 !important;
+}
+.color{
+    color: #1ac6f1!important;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.hovernav{
+    transition: color 1.5s ease;
+}
+.hovernav2{
+    transition: color 1.5s ease;
+}
+.hovernav2:hover{
+    background-color: #F5F5F5 !important;
+    color: #F4D35E !important;
+}
+.w3-card{
+    background-color: #F5F5F5 !important;
+}
+.w3-card .w3-button{
+    color: #333333 !important;
+}
+.w3-card .w3-button:hover{
+    background-color: #F5F5F5 !important;
+    color: #EE964B !important;
+}
+#navbar{
+    padding: 1.5rem;
+}
+.bounce{
+    animation: bounce 2s infinite;
+}
+#intro{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 4rem;
+    margin-bottom: 10rem;
+    background-color: #1795b4;
+    color: #fff;
+}
+#projects{
+    margin-top: 6rem;
+    background-color: #F5F5F5;
+}
+.imgpic{
+    border: 7px solid #fff;
+    border-radius: 50%;
+    height: 350px;
+    width: 300px;
+    
+}
+.w3-card-4{
+    transition: transform 0.5s ease;
+    padding: 0.75rem;
+    border-radius: 20px;
+}
+.w3-card-4 img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.w3-card-4:hover{ 
+    transform: translateY(-7px);
+}
+.marg{
+    padding-bottom: 3rem;
+}
+.w3-flex{
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.gap{
+    gap: 10rem !important;
+}
+.w3-flex p{
+    font-size: 14px;
+}
+.social-icons a{
+    font-size: 28px;
+    color: #bebcbc;
+    transition: color 0.5s;
+}
+.social-icons a:hover{
+    color: #03DAC6;
+}
+.i-contact{
+    margin-top: 1.3rem;
+}
+@keyframes pulse {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.05);}
+    100%{transform: scale(1);}
+}
+@keyframes bounce {
+    0%, 100% {transform: translateY(0);}
+    50%{transform: translateY(-10px);}   
+}
+@media (max-width: 600px) {
+   #intro h1.w3-xxxlarge{
+        font-size: 28px !important;
+    }
+    #intro p{
+        font-size: 14px !important;
+    }
+    #intro{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 2rem;
+        background-color: #1795b4;
+        color: #fff;
+    }
+  .gap{
+        gap: 2rem !important;
+    }
+    .color{
+        font-size: 1.5rem !important;
+    }
+    .imgpic{
+        height: 300px !important;
+        width: 200px !important;
+    }
+}
