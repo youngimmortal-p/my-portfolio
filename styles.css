@@ -71,6 +71,10 @@ body, p, a{
     margin-top: 6rem;
     background-color: #F5F5F5;
 }
+.resume{
+    background-color: #1390af !important;
+    border-radius: 30px;
+}
 .imgpic{
     border: 7px solid #fff;
     border-radius: 50%;
